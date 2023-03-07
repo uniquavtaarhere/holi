@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+    margin:0px;
+    padding: 0px;
+}
+body{
+    background-image: url("pexels-shrey-chapra-2041707.jpg");
+    background-position: center;
+    background-size: cover;
+}
+ body h3{
+    color:white;
+    font-size: 38px;
+    font-family: 'Great Vibes',cursive;
+    font-weight: bolder;
+}
+.nav{
+
+    background-color: black;
+    background-image: url("png\ holi.png");
+}
+.nav h6{
+    color:#f9faf8;
+    text-align: center;
+    font-size: x-large;
+    margin-top: 20px;
+}
+.nav h1{
+    color:#f9faf8;
+    text-align: center;
+    font-size: 34px;
+
+}
+.hero{
+    background-image: url("holi\ png.png");
+    background-position: center;
+    background-size: cover;
+    width:100%;
+    height:600px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+body h3{
+    background-color: #1f2937;
+    color:#f9faf8;
+    font-family:'Great Vibes' ,cursive ;
+    font-size: 32px;
+    text-align: center;
+    border-radius: 20px;
+}
+.parent{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #1f2937;
+   background-image: url("png\ holi.png");
+
+}
+.parent .image{
+    flex:1;
+    width:200px;
+    height:400px;
+    margin-left: 10px;
+    margin-right: 10px;
+    position:relative;
+    bottom:100px;
+    border-radius: 20px 80px;
+ 
+
+}
+.hero img{
+    width:100%;
+    height:500px;
+
+}
+.holi{
+    display:flex;
+    flex-wrap: nowrap;
+    background-color: #1f2937;
+    background-image: url("png\ holi.png");
+
+
+}
+.holi a img{
+    background-color:#f9faf8;
+    padding:20px;
+    margin:20px;
+    color:#f9faf8;
+    width:250px;
+    border-radius:50px;
+}
+
+.holi2{
+    background-color:#1f2937;
+    color:#f9faf8;
+    text-align:center;
+    font-size: 40px;
+    font-family:'Satisfy' ,cursive ;
+    font-weight: bolder;
+    font-style: oblique;
+}
+.holika{
+    background-color: #1f2937;
+    color:#f9faf8;
+    border-radius: 30px;
+    margin: 30px;
+   
+    
+}
+.holika h4{
+    font-size: 38px;
+    font-family: 'satisfy', cursive;
+    font-weight: bolder;
+    margin-left: 20px;
+
+}
+.holika p {
+    font-size: 20px;
+    font-family: 'Great Vibes',cursive;
+    padding:20px;
+
+}
+
+.footer{
+    background-color: #1f2937;
+   
+}
+.footer h6{
+    color: #f9faf8;
+    text-align: center;
+    padding-top:50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+
+
+@media only screen and (max-width:500px){
+    .holi{
+        flex-wrap: wrap;
+    }
+}
+
+
